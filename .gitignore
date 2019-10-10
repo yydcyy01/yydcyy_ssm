@@ -1,0 +1,6 @@
+# Project exclude paths
+/yydcyy_ssm_dao/target/
+/yydcyy_ssm_domain/target/
+/yydcyy_ssm_service/target/
+/yydcyy_ssm_utils/target/
+/yydcyy_ssm_web/target/
