@@ -29,6 +29,7 @@ public class OrdersService implements IOrdersService {
 
     @Override
     public Orders findById(String ordersId) throws Exception {
-        return null;
+        System.out.println("OrdersService -- findById ok");
+        return ordersDao.findById(ordersId);
     }
 }
