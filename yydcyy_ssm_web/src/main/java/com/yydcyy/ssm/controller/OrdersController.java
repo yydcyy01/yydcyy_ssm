@@ -39,6 +39,7 @@ public class OrdersController {
         PageInfo pageInfo = new PageInfo(ordersList);
         mv.addObject("pageInfo", pageInfo);
         mv.setViewName("orders-page-list");
+        System.out.println("执行到这了");
         return mv;
     }
 
