@@ -7,11 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="yydcyy_ssm_dao" />
-        <module name="yydcyy_ssm_web" />
-        <module name="yydcyy_ssm_domain" />
         <module name="yydcyy_ssm_utils" />
+        <module name="yydcyy_ssm_domain" />
         <module name="yydcyy_ssm_service" />
+        <module name="yydcyy_ssm_web" />
+        <module name="yydcyy_ssm_utils (1)" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="yydcyy_ssm_utils" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
