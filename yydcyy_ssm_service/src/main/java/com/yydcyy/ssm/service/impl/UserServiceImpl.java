@@ -51,6 +51,13 @@ public class UserServiceImpl implements IUserService {
         return userDao.findAll();
     }
 
+    /**
+     * 返回的是security包下 UserDetails.java, 就是那个实现了几个 get()方法的类. 不需要自己定义, 多好.
+     * User 对象是 : package org.springframework.security.core.userdetails;
+     * @param username
+     * @return
+     * @throws UsernameNotFoundException
+     */
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         UserInfo userInfo = null;
