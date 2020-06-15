@@ -41,10 +41,10 @@
 
     <!-- Spring security 依赖 -->
       <dependency>
-        <groupId>org.springframework.security</groupId> <artifactId>spring-security-web</artifactId> <version>5.0.1.RELEASE</version>
+        <groupId>org.springframework.security</groupId> <artifactId>spring-security-web</artifactId> <version>5.3.3.RELEASE</version>
       </dependency>
       <dependency>
-        <groupId>org.springframework.security</groupId> <artifactId>spring-security-config</artifactId> <version>5.0.1.RELEASE</version>
+        <groupId>org.springframework.security</groupId> <artifactId>spring-security-config</artifactId> <version>5.3.3.RELEASE</version>
       </dependency>
   </dependencies>
 
